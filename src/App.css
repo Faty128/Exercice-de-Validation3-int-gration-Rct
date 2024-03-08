@@ -2,15 +2,408 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* NAVBAR CSS */
+.header-section1{
+  background-image: linear-gradient(rgb(0, 0, 0, 0.75), rgb(0, 0, 0, 0.75)), url("./assets/img/course-7\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 130vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header-section1 .navbar {
+background: linear-gradient(185.5deg, rgba(0, 150, 135, 0.16) 4.39%, rgba(255, 255, 255, 0) 95.61%);
+}
+
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: 600;
+  margin: 1rem;
+  color: white;
+  text-decoration: none;
+  background: 0 0;
+  border: 0;
+}
+.navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.navbar .bodynav {
+  margin: auto;
+  border-bottom: 2px solid #464545;
+  width: 100%;
+  height: 100%;
+}
+
+.div-section .boder{
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  width: 97%;
+  height: 100%;
+}
+
+.first-h1{
+  padding: 20px;
+  margin-top: 9rem;
+  font-size: 2.5rem;
+  letter-spacing: 0.8px;
+  font-weight: 400;
+  color: #fff;
+}
+.first-h1 span{
+  color: orange;
+  font-weight: 700;
+}
+.icone-contact{
+  background: linear-gradient(185.5deg, rgba(0, 150, 135, 0.16) 4.39%, rgba(255, 255, 255, 0) 95.61%);
+  gap: 2rem;
+}
+ 
+.icone1, .icone2, .icone3, .icone4 {
+  gap: 10px;
+}
+.icone-contact i{
+  color: orange;
+  font-size: 1.5rem;
+}
+.icone-contact p{
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.vector1{
+  width: 100%;
+  position: relative;
+  top: -170px;
+}
+.vector2{
+  width: 100%;
+  position: relative;
+  top: -375px;
+}
+.img-fatima{
+  margin-top: O.1rem !important;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+/**** SECTION CSS ******/
+.prst{
+  margin-top: -20rem;
+}
+.liste-grp div{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.capacité .my-number{
+  width: 25px;
+  height: 25px; 
+  background: orangered;
+  color: #fff;
+  font-weight: 600;
+  padding-left: 6px;
+  border: 1px solid orangered; 
+  border-radius: 50%;
+}
+
+.capacité  .presentation{
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+.mn-text p{
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 4rem !important;
+}
+.mn-text h5{
+  font-family: 'Franklin', Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #009687;
+  margin-left: 4rem !important;
+
+}
+.card{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.card:hover{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease-out;
+  box-shadow: 0px 0px 13px 0px orange;
+
+}
+.btn:hover{
+  background: orange;
+  color: #fff;
+  border: 1px solid orange;
+  transition: box-shadow 0.3s ease-out;
+}
+.card-title:hover{
+ color:  orange;
+}
+.img-card{
+  margin: auto;
+  width: 90%;
+  height: 250px;
+}
+.card-title{
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 10px;
+  line-height: 27.83px;
+  color: #009687;
+}
+.card-text{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20.87px;
+  align-items: Center;
+  color: #242424;
+}
+.btn{
+  width: 170px; height: 40px;
+  border: 1px solid #009687;
+  color: #009687;
+}
+.btn:hover{
+  width: 170px; height: 40px;
+  border: 1px solid #009687;
+  opacity: 2;
+  color: #009687;
   }
+
+.copmt-h6{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    color: #009687;
+}
+.h6-1{
+    width: 599px;
+    height: 62px;
+    text-align: end;
+    padding: 15px;
+    border-radius: 3px;
+    background: #F7F7F7;
+    font-size: 28px;
+    font-weight: 500;
+}
+.h6-2{
+  width: 599px;
+  height: 62px;
+  text-align: start;
+  padding: 15px;
+  border-radius: 3px;
+  background: #F7F7F7;
+  font-size: 28px;
+  font-weight: 500;
+}
+.copmt2{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 7rem;
+  margin-top: 2rem;
+  color: #009687;
+}
+.copmt2 .h6-1{
+  width: 599px;
+  height: 62px;
+  text-align: end;
+  padding: 15px;
+  border-radius: 3px;
+  background: none;
+  font-size: 28px;
+  font-weight: 500;
+}
+.copmt2 .h6-2{
+  width: 599px;
+  height: 62px;
+  text-align: start;
+  padding: 15px;
+  border-radius: 3px;
+  background: none;
+  font-size: 28px;
+  font-weight: 500;
+}
+.progress-bar #redbar{
+  width: 215px;
+  height: 25px;;
+  border-radius: 3px;
+  background: #009687;
+
+}
+.react{
+  margin-right: 5rem;
+}
+.javascript{
+  font-size: 1.5rem;
+}
+.progress-bar .div1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.langues{
+  padding-left: 18rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.langues-copmt{
+  padding-left: 8rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.experiences{
+  text-align: start;
+}
+
+.experiences h1{
+  text-align: center;
+}
+
+.experiences .experience{
+  padding: 1rem;
+  margin-top: 3rem;
+  width: 100%;
+  height: 170px;
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0px 0px 16px 0px #0000001C;
+}
+
+.experiences .experience h3{
+  font-size: 22px;
+  font-weight: 600;
+}
+.experiences .experience h5{
+  font-size: 22px;
+  font-weight: 600;
+  color: #FE9800;
+}
+
+.experiences .experience p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.icones-img{
+  background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgb(0, 0, 0, 0.22)), url("./assets/img/Rectangle\ 90.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5rem;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.projet{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-size: 700;
+}
+.border-prjt{
+  border-right: 4px solid #fff;
+}
+
+.contact h1{
+  text-align: center;
+}
+.contact input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #F7F7F7;
+  width: 90%;
+  height: 2px;
+  font-size: 2rem;
+  margin: 1rem;
+}
+label{
+  font-size: 1.4rem;
+  color: #b6b2b2;
+  font-weight: 600;
+
+}
+.contact textarea{
+  width: 596px;
+  height: 100%;
+  top: 4261px;
+  border: 2px;
+  background: #F7F7F7;
+  border: 2px solid #666666;
+  font-size: 1.4rem;
+  color: #b6b2b2;
+  font-weight: 600;
+}
+.image{
+  width: 596px;
+  height: 560px;
+  background: #F7F7F7;
+  margin-top: 4rem;
+}
+.image .ftm{
+  margin-left: 20px;
+}
+.contact .btn1{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  padding: 16px;
+  position: relative;
+  top: -18px;
+  left: 50px;
+  width: 110px;
+  height: 30px;
+  border: 1px solid #FE9800;
+  background: #FE9800;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600; 
+}
+.contact .btn2{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  padding: 16px;
+  width: 110px;
+  height: 30px;
+  border: 1px solid #FE9800;
+  background: #FE9800;
+  color: #FFFFFF;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer{
+  width: 100%;
+  height: 192px;
+  background: linear-gradient(180deg, #FFFFFF 40.63%, #009687 106.25%);
 }
 
 .App-header {
@@ -34,5 +427,176 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen  and (max-width: 560px){
+  .p-4 {
+    padding: 1rem !important;
+  }
+  
+  .d-flex {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .mn-text p{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 0rem !important;
+  }
+  .mn-text h5{
+    font-family: 'Franklin', Arial, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #009687;
+    margin-left: 0rem !important;
+  
+  }
+  .prst{
+    padding-top: 0rem;
+  }
+  .vector1 {
+    padding-top: 3.3rem;
+  }
+  .vector2{
+    width: 100%;
+    padding-top: 3.3rem;
+  }
+  .header-section1 {
+    width: 100%;
+    height: 100%;
+  }
+  .img-fatima{
+    margin-top: O.1rem !important;
+    padding: 10px;
+    width: 100%;
+    height: 52vh;
+  }
+  .langues {
+    padding-left: 0rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  .langues-copmt{
+    padding-left: 0rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .experiences .experience h3{
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .experiences .experience h5{
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .experiences .experience p{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+  }
+  .contact textarea{
+    width: 100%;
+    height: 100%;
+  }
+  .image{
+    width: 100%;
+    height: 100%;
+  }
+  .contact .btn1{
+    top: 0px;
+    left: 0px;
+  }
+  .javascript{
+    font-size: 1.5rem;
+    margin-right: -1rem;
+  }
+}
+
+@media screen  and (max-width: 768px){
+  .first-h1{
+    padding: 1rem;
+    margin-top: 9rem;
+    font-size: 2rem;
+    letter-spacing: 0.7px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .icone-contact{
+    gap: 1rem;
+  }
+  .icone1, .icone2, .icone3, .icone4 {
+    gap: 0.3rem;
+  }
+  .icone-contact i{
+    color: orange;
+    font-size: 1rem;
+  }
+  .icone-contact p{
+    color: white;
+    font-weight: 500;
+    font-size: 0.7rem;
+  }
+  .capacité  .presentation{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+  }
+  
+  .mn-text p{
+    font-size: 9.5px;
+    font-weight: 600;
+  }
+  .mn-text p{
+    margin-left: 0rem !important;
+  }
+  .mn-text h5{
+    margin-left: 0rem !important;
+  }
+    .vector1 {
+      width: 100%;
+      top: -110px;
+  }
+  .vector2 {
+    width: 100%;
+    top: -226px;
+  }
+  .prst{
+    margin-top: -10rem;
+  }
+  .langues {
+    padding-left: 0rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  .langues-copmt{
+    padding-left: 4rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .experiences .experience h3{
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .experiences .experience h5{
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .experiences .experience p{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+  }
+  .contact textarea{
+    width: 100%;
+    height: 100%;
+  }
+  .image{
+    width: 100%;
+    height: 560px;
+  }
+  .javascript{
+    font-size: 1rem;
+    margin-right: -0.5rem;
   }
 }
